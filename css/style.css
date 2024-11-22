@@ -1,0 +1,75 @@
+.bg-color {
+  background-color: rgb(65, 60, 68);
+}
+
+img {
+  height: 350px;
+  border-radius: 20%;
+}
+
+.imagen {
+  height: 250px;
+  cursor: pointer;
+}
+
+.tarjeta {
+  max-width: 400px;
+}
+
+.texto {
+  font-size: 20px;
+  padding: 10px 250px;
+  font-weight: 400;
+  /* display: flex; */
+}
+
+.titulo {
+  padding: 15px;
+  font-size: 40px;
+}
+
+.subTitulo {
+  padding: 15px;
+}
+
+.formulario {
+  justify-content: center;
+  display: flex;
+}
+
+.margen {
+  margin-right: 500px;
+}
+
+.colorF {
+  background-color: rgb(136, 127, 141);
+  color: rgb(255, 255, 255);
+}
+
+.f-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.iconos {
+  float: center;
+  height: 25px;
+  margin: 20px;
+}
+
+@media (max-width: 750px) {
+  .texto {
+    padding: 10px 20px;
+  }
+
+  .margen {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .margen {
+    margin-right: 200px;
+  }
+}
