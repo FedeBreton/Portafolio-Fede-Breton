@@ -77,64 +77,370 @@
           <h2 class="titulo">Portfolio</h2>
         </div>
         <div class="container text-center">
-          <div class="row align-items-center g-4">
-            <div class="col">
-              <a href="https://github.com/FedeBreton/El-clasico-lemon-pie.git"
-                ><article class="tarjeta">
-                  <img
-                    class="imagen"
-                    src="./img/lemon-pie.jpeg"
-                    alt="Lemon pie"
-                  />
-                  <h3>Lemon Pie</h3>
-                </article></a
+          <div class="row row-gap-4">
+            <!-- tarjeta Lemon Pie -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div
+                class="card position-relative"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#lemonModal"
               >
-            </div>
-            <div class="col">
-              <a href="https://github.com/FedeBreton/CV-Batman.git"
-                ><article class="tarjeta">
-                  <img class="imagen" src="./img/CVBatman.png" alt="Batman" />
-                  <h3>CV Batman</h3>
-                </article></a
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/lemon-pie.jpeg"
+                  alt="LemonPie"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">Lemon Pie</h3>
+                </div>
+              </div>
+              <!-- Modal Lemon Pie -->
+              <div
+              class="modal fade"
+              id="lemonModal"
+              tabindex="-1"
+              aria-labelledby="lemonModalLabel"
+              aria-hidden="true"
               >
-            </div>
-            <div class="col">
-              <a href="https://github.com/FedeBreton/Heroes.git"
-                ><article class="tarjeta">
-                  <img
-                    class="imagen"
-                    src="./img/super.png"
-                    alt="Super heroes"
-                  />
-                  <h3>Súpers</h3>
-                </article></a
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="lemonModalLabel">
+                        Proyecto Lemon Pie
+                      </h1>
+                      <img
+                        src="./img/lemon-pie.jpeg"
+                        class="card-img-top py-4"
+                        alt="LemonPie"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/El-clasico-lemon-pie.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- tarjeta CV Batman -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div
+                class="card position-relative"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#batmanModal"
               >
-            </div>
-            <div class="col">
-              <a href="https://github.com/FedeBreton/Pet-shop.git"
-                ><article class="tarjeta">
-                  <img class="imagen" src="./img/petshop.jpeg" alt="Pet shop" />
-                  <h3>Pet Shop</h3>
-                </article></a
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/CVBatman.png"
+                  alt="CVBatman"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">CV Batman</h3>
+                </div>
+              </div>
+              <!-- Modal CV Batman -->
+              <div
+              class="modal fade"
+              id="batmanModal"
+              tabindex="-1"
+              aria-labelledby="batmanModalLabel"
+              aria-hidden="true"
               >
-            </div>
-            <div class="col">
-              <a href="https://github.com/FedeBreton/Pizzeria.git"
-                ><article class="tarjeta">
-                  <img class="imagen" src="./img/piza.jpeg" alt="Pizza" />
-                  <h3>Pizzería</h3>
-                </article></a
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="batmanModalLabel">
+                        Proyecto CV Batman
+                      </h1>
+                      <img
+                        src="./img/CVBatman.png"
+                        class="card-img-top py-4"
+                        alt="CVBatman"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/CV-Batman.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- tarjeta Supers -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div
+                class="card position-relative"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#superModal"
               >
-            </div>
-            <div class="col">
-              <a href="https://github.com/FedeBreton/Game-shop.git"
-                ><article class="tarjeta">
-                  <img class="imagen" src="./img/gameshop.jpeg" alt="Game" />
-                  <h3>Game Shop</h3>
-                </article></a
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/super.png"
+                  alt="Supers"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">Súpers</h3>
+                </div>
+              </div>
+              <!-- Modal Supers -->
+              <div
+              class="modal fade"
+              id="superModal"
+              tabindex="-1"
+              aria-labelledby="superModalLabel"
+              aria-hidden="true"
               >
-            </div>
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="superModalLabel">
+                        Proyecto Super Héroes
+                      </h1>
+                      <img
+                        src="./img/super.png"
+                        class="card-img-top py-4"
+                        alt="Supers"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/Heroes.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- tarjeta Pet Shop -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div
+                class="card position-relative"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#petModal"
+              >
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/petshop.jpeg"
+                  alt="PetShop"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">Pet Shop</h3>
+                </div>
+              </div>
+              <!-- Modal Pet Shop -->
+              <div
+              class="modal fade"
+              id="petModal"
+              tabindex="-1"
+              aria-labelledby="petModalLabel"
+              aria-hidden="true"
+              >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="petModalLabel">
+                        Proyecto Pet Shop
+                      </h1>
+                      <img
+                        src="./img/petshop.jpeg"
+                        class="card-img-top py-4"
+                        alt="PetShop"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/Pet-shop.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- tarjeta Pizzeria -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div class="card position-relative" type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#pizzaModal">
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/piza.jpeg"
+                  alt="Pizza"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">Pizzería</h3>
+                </div>
+              </div>
+              <!-- Modal Pizzeria -->
+              <div
+              class="modal fade"
+              id="pizzaModal"
+              tabindex="-1"
+              aria-labelledby="gameModalLabel"
+              aria-hidden="true"
+              >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="pizzaModalLabel">
+                        Proyecto Pizzería
+                      </h1>
+                      <img
+                        src="./img/piza.jpeg"
+                        class="card-img-top py-4"
+                        alt="Pizza"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/Pizzeria.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- tarjeta GameShop -->
+            <article class="col-12 col-sm-6 col-lg-4 tarjeta">
+              <div
+                class="card position-relative"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#gameModal"
+              >
+                <i
+                  class="fa-solid fa-circle-plus plus position-absolute fa-5x"
+                ></i>
+                <img
+                  class="card-img-top"
+                  src="./img/gameshop.jpeg"
+                  alt="GameShop"
+                />
+                <div class="card-body">
+                  <h3 class="card-text text-center">Game Shop</h3>
+                </div>
+              </div>
+              <!-- Modal GameShop -->
+              <div
+              class="modal fade"
+              id="gameModal"
+              tabindex="-1"
+              aria-labelledby="gameModalLabel"
+              aria-hidden="true"
+              >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container text-center gap-3">
+                      <h1 class="modal-title fs-5" id="gameModalLabel">
+                        Proyecto GameShop
+                      </h1>
+                      <img
+                        src="./img/gameshop.jpeg"
+                        class="card-img-top py-4"
+                        alt="GameShop"
+                      />
+                      <a
+                        type="button"
+                        class="btn btn-primary text-center"
+                        href="https://github.com/FedeBreton/Game-shop.git"
+                      >Visitar Sitio
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
+        </div>
         </div>
       </section>
       <section

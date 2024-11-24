@@ -12,9 +12,21 @@ img {
   cursor: pointer;
 }
 
-.tarjeta {
-  max-width: 400px;
+.plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
 }
+.card:hover .plus {
+  visibility: visible;
+}
+
+/* .tarjeta {
+  max-width: 400px;
+} */
 
 .texto {
   font-size: 20px;
